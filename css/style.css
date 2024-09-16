@@ -8450,7 +8450,8 @@ h1, h2, h3, h4, h5,
         background: #000000;
         opacity: 0; }
       .owl-carousel.home-slider .slider-item .slider-text {
-        height: 750px;
+        height: 100%;
+        padding-bottom: 100px;
         z-index: 0; }
         @media (max-width: 991.98px) {
           .owl-carousel.home-slider .slider-item .slider-text {
@@ -8627,6 +8628,21 @@ h1, h2, h3, h4, h5,
         background: rgba(255, 255, 255, 0.4); }
         .owl-carousel.home-slider .owl-dots .owl-dot.active {
           background: #fff; }
+
+.one-third.js-fullheight.order-md-last.img {
+    background-image: url(images/bg_1.png);
+    background-size: 55%; /* O usa 'cover' para cubrir el contenedor */
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.one-third.js-fullheight.order-md-last.img {
+    background-image: url(images/bg_2.png);
+    background-size: 70%; /* Puedes usar 'cover' o valores específicos como '100%' */
+    background-repeat: no-repeat;
+    background-position: center;
+}         
 
 .hero-wrap {
   width: 100%;
